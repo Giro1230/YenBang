@@ -1,0 +1,18 @@
+
+spring:
+  name: YenBang
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://giro-db.cng8imi00pm0.ap-northeast-2.rds.amazonaws.com:3306/YenBang
+    username: admin
+    password: 026Sfydat5DFQYE7EqqE
+
+    jpa:
+      database-platform: org.hibernate.dialect.MySQL8Dialect
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          format_sql: true
+      show-sql: true
